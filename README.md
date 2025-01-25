@@ -85,7 +85,7 @@ Decision Tree: MSE = 2765607.205, R^2 = 0.310
 The Gradient Boosting model performed the best with the lowest Mean Squared Error and highest R^2 Score.
 
 ## Kaggle
-You can also access the same project on Kaggle using this link: (project link)
+You can also access the same project on Kaggle using this link: (https://www.kaggle.com/code/gumaruw/predicting-bike-sharing-demand-with-ml)
 
 ## Contributing
 Contributions are welcome! If you have any suggestions, feel free to fork the repository and submit a pull request.
