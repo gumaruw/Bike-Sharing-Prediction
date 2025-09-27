@@ -1,4 +1,4 @@
-# Predicting Bike Sharing Demand with Machine Learning
+# Predicting Bike Sharing Demand
 
 This project predicts bike sharing demand using the [Bike Sharing Dataset](https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset/data). The dataset includes weather, calendar, and usage information, allowing us to model rental demand with various machine learning techniques.
 
