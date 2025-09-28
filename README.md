@@ -1,29 +1,20 @@
-# Predicting Bike Sharing Demand
+# Bike Sharing Prediction
 
-This project predicts bike sharing demand using the [Bike Sharing Dataset](https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset/data). The dataset includes weather, calendar, and usage information, allowing us to model rental demand with various machine learning techniques.
+The goal is to predict daily rental counts (`cnt`) using weather, time, and other features. Several models are trained and compared to identify the best-performing approach.   
+[Bike Sharing Dataset](https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset/data)
 
 ---
 
 ## Table of Contents
-- [Overview](#overview)
 - [Dataset](#dataset)
 - [Features](#features)
 - [Models](#models)
-- [Evaluation](#evaluation)
 - [Results](#results)
 - [Usage](#usage)
-- [Kaggle](#kaggle)
-- [License](#license)
-
----
-
-## Overview
-The goal is to predict daily rental counts (`cnt`) using weather, time, and other features. Several models are trained and compared to identify the best-performing approach.
 
 ---
 
 ## Dataset
-The dataset contains variables such as:
 - **Date/Time:** `dteday`, `season`, `yr`, `mnth`, `hr`, `weekday`, `holiday`, `workingday`  
 - **Weather:** `weathersit`, `temp`, `atemp`, `hum`, `windspeed`  
 - **Target:** `cnt` (total rentals = casual + registered)  
@@ -31,7 +22,6 @@ The dataset contains variables such as:
 ---
 
 ## Features
-Engineered features include:
 - Interaction term: `temp_hum_interaction`  
 - One-hot encoding for categorical time features  
 
@@ -42,14 +32,6 @@ Engineered features include:
 - Random Forest Regressor  
 - Gradient Boosting Regressor  
 - Decision Tree Regressor  
-
----
-
-## Evaluation
-Models were evaluated using:
-- **Mean Squared Error (MSE)**  
-- **R² Score**  
-- **Cross-validation**  
 
 ---
 
@@ -74,6 +56,3 @@ Models were evaluated using:
 
 ## Kaggle
 You can also access the same project on [Kaggle](https://www.kaggle.com/code/gumaruw/predicting-bike-sharing-demand-with-ml)
-
-## License
-This project is licensed under the MIT License. See the LICENSE file for more details.
