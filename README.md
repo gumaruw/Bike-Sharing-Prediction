@@ -1,7 +1,6 @@
 # Bike Sharing Prediction
 
 The goal is to predict daily rental counts (`cnt`) using weather, time, and other features. Several models are trained and compared to identify the best-performing approach.   
-[Bike Sharing Dataset](https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset/data)
 
 ---
 
@@ -15,6 +14,7 @@ The goal is to predict daily rental counts (`cnt`) using weather, time, and othe
 ---
 
 ## Dataset
+[Bike Sharing Dataset](https://www.kaggle.com/datasets/marklvl/bike-sharing-dataset/data)
 - **Date/Time:** `dteday`, `season`, `yr`, `mnth`, `hr`, `weekday`, `holiday`, `workingday`  
 - **Weather:** `weathersit`, `temp`, `atemp`, `hum`, `windspeed`  
 - **Target:** `cnt` (total rentals = casual + registered)  
