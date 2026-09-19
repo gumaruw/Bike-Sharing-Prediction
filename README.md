@@ -51,8 +51,6 @@ pip install numpy pandas matplotlib seaborn scikit-learn
 python BikeSharing.py  # after adapting the data-loading section as above
 ```
 
-**Note:** `bike_sharing.py` is a near-duplicate of `BikeSharing.py` (same content, minor formatting differences) — it should be removed to avoid confusion about which file is current.
-
 ## Kaggle
 
 You can also view the same project on [Kaggle](https://www.kaggle.com/code/gumaruw/predicting-bike-sharing-demand-with-ml).
